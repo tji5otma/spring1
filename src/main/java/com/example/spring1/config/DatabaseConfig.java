@@ -26,7 +26,7 @@ public class DatabaseConfig {
         //環境に合わせて書き換える
         dataSource.setUrl("jdbc:postgresql://localhost:5432/postgres");
         dataSource.setUsername("postgres");
-        dataSource.setPassword("yakyuu0825");
+        dataSource.setPassword("******");
 
         return dataSource;
     }
